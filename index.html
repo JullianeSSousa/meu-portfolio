@@ -5,71 +5,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portfólio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="#titulo1">Formação</a></li>
-                <li><a href="#titulo2">Portfólio</a></li>
-                <li> <a href="#contatos">Contato</a></li>
+                <li><a class="nav_bar" href="#formacao" style="text-decoration: none;">Formação</a></li>
+                <li><a class="nav_bar" href="#portfolio">Portfólio</a></li>
+                <li><a class="nav_bar" href="#contatos">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <img src="/assents/Rectangle 11.png" alt="imagem_marina">
-            <h1>Julliane Sousa</h1>
-            <H2>Desenvolvedora Web</H2>
+    <main class="fundo_principal">
+        <article>
+            <section class="apresentacao_informacao">
+                <div class="informacao">
+                    <img class="foto_usuario" src="/assents/Rectangle 11.png" alt="imagem_icone">
+                </div>
 
-            <p>Sou Design formada pela UFCG, aluna do curso de Analise e Desenvolvimento de Sistemas da Unifacisa e
-                atualmente participante do projeto Oracle One da Alura. Amo a parte criativa e estou embarcando no mundo
-                da programação buscando colocar em prática minhas idéias. Meu primeiro contato com a programação foi na
-                pandemia,
-                logo após passar, pelos desafios do meu tcc, no qual envolviam áreas de programação. A partir disto
-                venho conhecendo cada dia mais um pouco mais da área de front e resolvi embarcar em uma nova graduação,
-                buscando sempre o crescimento profissional.</p>
+                <h1 class="titulo__principal">Julliane Sousa</h1>
+                <h2 class="titulo__secundario">Desenvolvedora Web</h2>
+
+
+                <p class="apresentacao">Sou Design formada pela UFCG, aluna do curso de Analise e Desenvolvimento de
+                    Sistemas da Unifacisa e
+                    atualmente participante do projeto Oracle One da Alura. Amo a parte criativa e estou embarcando no
+                    mundo
+                    da programação buscando colocar em prática minhas idéias. Meu primeiro contato com a programação foi
+                    na
+                    pandemia,
+                    logo após passar, pelos desafios do meu tcc, no qual envolviam áreas de programação. A partir disto
+                    venho conhecendo cada dia mais um pouco mais da área de front e resolvi embarcar em uma nova
+                    graduação,
+                    buscando sempre o crescimento profissional.</p>
+            </section>
+        </article>
+        <section class="formacao">
+
+            <h1 id="formacao" class="titulo_apresentacao_formacao">Formação</h1>
+
+            <h2 class="subtitulo_apresentacao_formacao">Graduações</h2>
+            <p class="paragrafo_formacao">UFCG - Design de Produtos (2013-2020)</p>
+            <p class="paragrafo_formacao">UNIFACISA - Analise e Desenvolvimento de Sistemas</p>
+
+            <h2 class="subtitulo_apresentacao_formacao">Curso de Programação</h2>
+            <span class="links"><a class="link_formacao" href="https://minasprogramam.com/cursos/" target="_blank"
+                    style="text-decoration: none;">Instituto Minas Programam</a></span>
+            <p class="paragrafo_formacao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Fusce a nibh in
+                sem tempor lacinia. Integer magna ante, vulputate <br>sit amet sodales sed, pharetra ac velit.
+                for clients and indoor purposes.</p>
         </section>
-        <section>
-            <h1 id="titulo1">Formação</h1>
 
-            <h2>Graduações</h2>
-            <p>UFCG - Design de Produtos (2013-2020)</p>
-            <p>UNIFACISA - Analise e Desenvolvimento de Sistemas</p>
-        </section>
+        <section id="portfolio">
+            <article class="info_portfolio">
 
-        <section>
+                <h1 class="titulo_portfolio">Portfólio</h1>
 
-            <h1 id="titulo2">Portfólio</h1>
+                <h2 class="titulo_apresentacao_portfolio">Desenvolvedora Web</h2>
+                <span class="links"><a class="link_portfolio" href=" https://decodificador-challenge-one-omega.vercel.app/
+            " target="_blank">Decodificador</a></span>
 
-            <h2>Desenvolvedora Web</h2>
-            <a href=" https://decodificador-challenge-one-omega.vercel.app/
-            " target="_blank">Decodificador</a>
+                <p class="paragrafo_formacao">Projeto Desenvolvido para o desafio a criação de um decodificador para a
+                    criptografia de textos <br>
+                    no qual tiveram como regras os seguintes chaves: A letra "e" é convertida para "enter" A letra "i"
+                    <br>
+                    é convertida para "imes" A letra "a" é convertida para "ai" A letra "o" é convertida para "ober"
+                    <br>
+                    A letra "u" é convertida para "ufat"Além de só aceitar letras minusculas para realizar a
+                    criptografia e
+                    <br>
+                    descriptografia da menasagem.
+                </p>
 
-            <p>Projeto Desenvolvido para o desafio a criação de um decodificador para a criptografia de textos <br>
-                no qual tiveram como regras os seguintes chaves: A letra "e" é convertida para "enter" A letra "i" <br>
-                é convertida para "imes" A letra "a" é convertida para "ai" A letra "o" é convertida para "ober" <br>
-                A letra "u" é convertida para "ufat"Além de só aceitar letras minusculas para realizar a criptografia e
-                <br>
-                descriptografia da menasagem.
-            </p>
-
-            <h2>Desenvolvedora Beck</h2>
-            <a href="https://github.com/JullianeSSousa/projeto-final-ouvidoria-java" target="_blank">Ouvidoria</a>
-            <p>O projeto realizado, trata-se de um sistema de ouvidoria no qual a mesma
-                faz a listagem de reclamações, inclusão de novas reclamações, exclusão
-                e listagem por tipo. Projeto desenvolvido para a conclusão da disciplina do
-                curso de Analise e Desenvolvimento de Sistemas. A linguagem utilizada foi a
-                de Java.<br>
+                <h2 class="titulo_apresentacao_portfolio">Desenvolvedora Beack</h2>
+                <span class="links"><a class="link_portfolio" href="https://github.com/JullianeSSousa/projeto-final-ouvidoria-java"
+                        target="_blank">Ouvidoria</a></span>
+                    <p class="paragrafo_formacao">O projeto realizado, trata-se de um sistema de ouvidoria no qual a
+                        mesma
+                        faz a listagem de reclamações,<br> inclusão de novas reclamações, exclusão
+                        e listagem por tipo. Projeto desenvolvido para a conclusão da <br> disciplina do
+                        curso de Analise e Desenvolvimento de Sistemas. A linguagem utilizada foi a
+                        de Java.<br>
+            </article>
         </section>
 
     </main>
     <footer id="contatos">
+        <div class="rodape_conteudo">
+            <div class="rodape_itens">
+                <img class="rodape_icon" src="/assents/o-email.png" alt="icon email">
+                <span>jullianecoda@gmail.com</span>
+            </div>
 
-        <img src="/assents/Vector.png" alt="logo"> <p>email@email.com</p>
-        <img src="/assents/Vector.png" alt="logo linkedin"> <p>julliane-Desenvolvedora</p>
-        <img src="/assents/Vector.png" alt=""> <p>@jullianedesenvolvedora</p>
+            <div class="rodape_itens">
+                <img class="rodape_icon" src="/assents/Vector.png" alt="icon linkedin">
+                <span><a href="https://www.linkedin.com/in/julliane-sousa-57a292187/"
+                        target="_blank">julliane-sousa</a></span>
+            </div>
+
+            <div class="rodape_itens">
+                <img class="rodape_icon" src="/assents/github.png" alt="icon git hub">
+                <span><a href="https://github.com/JullianeSSousa" target="_blank">JullianeSSousa</a></span>
+            </div>
     </footer>
 
 </body>
