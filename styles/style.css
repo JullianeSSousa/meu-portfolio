@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+body{
+    font-family: "Ubuntu", system-ui;
+
+}
+
+/*MENU*/
+
+.menu{
+    background-color: #4B0082;
+    padding: 15px;
+    
+   
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+/*APRESENTAÇÃO*/
+
+.foto_usuario{
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.nav_bar{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+.fundo_principal{
+    background-color:#edeaea;
+
+}
+
+.informacao{
+    display: flex;
+    justify-content:center;
+    
+}
+h1,h2{
+    margin: 5px; /* Remove a margem padrão */
+}
+
+.titulo__principal{
+    
+    color: #7204c1;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.titulo__secundario{
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.apresentacao{
+    text-align: center;
+    width: 594px;
+    height: 124px;
+    padding: 20px;
+    margin-left: 424px;
+    margin-bottom: 120px;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 22.4px;
+
+}
+
+/*FORMAÇÃO*/
+
+.formacao{
+    background-color: white;
+    height: 579px;
+
+}
+
+
+.titulo_apresentacao_formacao{
+    width: 363.45px;
+    padding-top: 76.1px;
+    padding-left: 300px;
+    font-size: 24px;
+    line-height: 32.68px;
+    color: #49BFB3;
+
+}
+
+.subtitulo_apresentacao_formacao{
+    color: #828282;
+    font-size: 16px;
+    line-height: 21.79px;
+    padding-top: 40px;
+    padding-left: 500px;
+}
+
+.paragrafo_formacao{
+    padding-left: 505px;
+    gap: 10px;
+    font-size: 16px;
+}
+.links{
+    padding-left: 505px;
+    gap: 10px;
+    
+}
+.link_formacao{
+    font-style: bold;
+    color: #5A53D8;
+    font-size: 16px;
+}
+
+/*PORTFOLIO*/
+
+
+.info_portfolio{
+    background-color: #edeaea;
+    display: flex;
+    flex-direction: column;
+    height: 567px;
+    
+}
+
+.titulo_portfolio{
+    width: 363.45px;
+    padding-top: 76.1px;
+    padding-left: 300px;
+    font-size: 24px;
+    line-height: 32.68px;
+    color: #49BFB3;
+
+}
+
+.titulo_apresentacao_portfolio{
+    color: #828282;
+    font-size: 16px;
+    line-height: 21.79px;
+    padding-top: 40px;
+    padding-left: 500px;
+}
+
+.link_portfolio{
+    font-style: bold;
+    color: #5A53D8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*RODAPÉ*/
+
+
+
+#contatos{
+    background-color: #5A53D8;
+    padding: 30px;
+    color: white;
+}
+
+.rodape_itens span a{
+    color: white;
+}
+
+.rodape_itens{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rodape_icon{
+    width: 25px;
+    margin-right: 15px;
+}
